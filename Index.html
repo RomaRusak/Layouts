@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webdev</title>
+    <link rel="stylesheet" href="./style/css.css">
+    <link rel="stylesheet" href="./style/media.css">
+</head>
+
+<body>
+    <div class="site">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="burger-wrapper">
+                        <div class="burger-menu">
+                            <label for="checkbox"></label>
+                            <div class="burger-menu-line"></div>
+                            <div class="burger-menu-line"></div>
+                            <div class="burger-menu-line"></div>
+                        </div>
+                        <input type="checkbox" id="checkbox">
+                        <ul class="nav-list">
+                            <li><a href="#" class="nav-list__link">About</a></li>
+                            <li><a href="#" class="nav-list__link">Syllabus</a></li>
+                            <li>
+                                <a href="#">
+                                    <div class="logo-wrapper"></div>
+                                </a>
+                            </li>
+                            <li><a href="#" class="nav-list__link">Projects</a></li>
+                            <li><a href="#" class="uppercase nav-list__link">faq</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="header-title">
+                    <h2 class="uppercase">your life is WebDev</h2>
+                    <p>Whatever the approach to development may be, the final<br> program must satisfy some fundamental
+                        properties</p>
+                    <button class="uppercase button-get-started">get started</button>
+                </div>
+                <div class="header-info">
+                    <a href="#" class="info-link">
+                        <div class="info-wrapper item-1"></div>
+                    </a>
+                    <a href="#" class="info-link">
+                        <div class="info-wrapper item-2"></div>
+                    </a>
+                    <a href="#" class="info-link">
+                        <div class="info-wrapper item-3"></div>
+                    </a>
+                    <a href="#" class="info-link">
+                        <div class="info-wrapper item-4"></div>
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="courses-description">
+                <div class="container">
+                    <div class="courses-description-wrapper">
+                        <div class="courses-description__left">
+                            <h2 class="uppercase">Rappresent your idea with<br> a smart Design</h2>
+                            <p>Tasks accompanying and related to programming include: testing, debugging, source code
+                                maintenance, <span class="bold">implementation of build systems</span>, and management
+                                of derived artifacts, such as the machine code of computer programs. </p>
+                            <button class="uppercase button-get-started">get started</button>
+                        </div>
+                        <div class="courses-description__right">
+                            <img src="./images/courses-content-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="community">
+                <div class="container">
+                    <div class="community-wrapper">
+                        <div class="community__left">
+                            <div class="community-box">
+                                <img src="./images/userpic.svg" alt="#">
+                                <h3>our community</h3>
+                                <p>A hacker is any skilled computer expert that uses their technical knowledge to
+                                    overcome a problem, but it can also mean a security hacker in common language</p>
+                            </div>
+                        </div>
+                        <div class="community__right">
+                            <div class="slider-nav">
+                                <p>
+                                    <a href="#">
+                                        <img src="./images/arrow-left.svg" alt="#" id="arrow-left">
+                                    </a>
+                                    1 <span class="slash-bold">/</span> 5
+                                    <a href="#">
+                                        <img src="./images/arrow-right.svg" alt="#" id="arrow-right">
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="slider-menu">
+                                <img src="./images/slider-item-1.png" alt="#">
+                                <img src="./images/slider-item-2.png" alt="#">
+                                <img src="./images/slider-item-2.png" alt="#">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="implement">
+                <div class="container">
+                    <div class="implement-wrapper">
+                        <img src="./images/content-implement.png" alt="#">
+                        <div class="implement-box">
+                            <h3>Implement right Code</h3>
+                            <p>These might be considered part of the programming process, but often the term software
+                                development is used for this larger process with the term programming, implementation
+                            </p>
+                            <button class="uppercase button-get-started">learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <section class="ournews">
+            <div class="container">
+                <div class="ournews-wrapper">
+                    <h3>sign up for our newsletter</h3>
+                    <div class="email-form-wrapper">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <img src="./images/btn-submit.svg" alt="#">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="download">
+            <div class="container">
+                <div class="download-wrapper">
+                    <h3>Download the App</h3>
+                    <p>Machine code was the language of early programs, written in the instruction<br> set of the
+                        particular machine, often in binary notation.</p>
+                    <div class="download_button-wrapper">
+                        <div class="apple-wrapper">
+                            <button id="apple-store">apple store</button>
+                            <img src="./images/apple-icon.svg" alt="#">
+                        </div>
+                        <div class="playmarket-wrapper">
+                            <button id="play-market">play market</button>
+                            <img src="./images/playmarket-icon.svg" alt="#">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-wrapper">
+                    <ul class="footer-list">
+                        <li>
+                           <a href="#" class="footer-link">Credits</a>
+                           <a href="#" class="footer-link">Privacy</a>
+                           <a href="#" class="footer-link">Our teams</a>
+                        </li>
+                        <li><a href="#"><img src="./images/footer-logo.svg" alt="#"></a></li>
+                        <li>by TonYem for RSS at 2020</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
